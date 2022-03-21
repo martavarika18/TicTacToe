@@ -110,7 +110,7 @@ def infoLogs():
     apraksts.grid(row=4,column=0)
     apraksts=Label(jaunsLogs,text='Ja laukums ir aizpildīts un neviens no spēlētājiem nav sasniedzis spēles mērķi,')
     apraksts.grid(row=5,column=0)
-    apraksts=Label(jaunsLogs,text=' spēle beidzas ar neizšķirtu rezultātu.')
+    apraksts=Label(jaunsLogs,text='spēle beidzas ar neizšķirtu rezultātu.')
     apraksts.grid(row=6,column=0)
     return 0
 
